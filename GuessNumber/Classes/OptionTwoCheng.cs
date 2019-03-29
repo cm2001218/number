@@ -133,7 +133,7 @@ namespace GuessNumber.Classes
         */
         public int ReadInputNumber()
         {
-			Console.WriteLine("test test new branch");
+			Console.WriteLine("test new branch");
             Console.WriteLine("round " + attempt + ", please guess: ");
             inputNumber = Convert.ToInt32(Console.ReadLine());
             return inputNumber;
